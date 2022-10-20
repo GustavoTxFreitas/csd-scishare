@@ -21,6 +21,10 @@ header #bar{
   justify-content: space-between;
 }
 
+h1{
+  font-family: 'Oleo Script';
+}
+
 header nav ul{
   display: flex;
 }
@@ -30,8 +34,12 @@ header nav ul li{
   list-style: none;
 }
 
+ section{
+  padding: 1em 2em;
+ }
+
 #home{
-  height: 94vh;
+  height: 82vh;
   display: flex;
   align-items: center;
   flex-direction: column;
